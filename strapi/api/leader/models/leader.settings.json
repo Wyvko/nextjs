@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leaders",
+  "info": {
+    "name": "Leader"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "albums": {
+      "via": "leaders",
+      "collection": "albums"
+    }
+  }
+}
