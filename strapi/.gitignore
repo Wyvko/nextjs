@@ -110,5 +110,6 @@ coverage
 .env
 license.txt
 exports
+.tmp
 .cache
 build
