@@ -111,7 +111,7 @@ coverage
 license.txt
 exports
 .tmp
-.gitkeep
 .cache
 build
 uploads
+.gitkeep
