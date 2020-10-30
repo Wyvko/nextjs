@@ -113,5 +113,4 @@ exports
 .tmp
 .cache
 build
-uploads
-.gitkeep
+public
