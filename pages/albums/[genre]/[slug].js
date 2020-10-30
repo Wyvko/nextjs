@@ -2,9 +2,8 @@ import { Box, Flex } from 'reflexbox'
 import getConfig from 'next/config'
 import fetch from 'isomorphic-unfetch'
 
-function Album({ album }) {
+const Album = ({ album }) => {
 
-    console.log(album)
     const { API_URL } = process.env
 
     return (
@@ -25,7 +24,7 @@ function Album({ album }) {
 const { publicRuntimeConfig } = getConfig()
 
 
-export async function getServerSideProps(context) {
+export async const getServerSideProps = (context) => {
 
     const { slug } = context.query
 

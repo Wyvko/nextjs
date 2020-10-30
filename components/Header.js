@@ -4,7 +4,7 @@ import { Flex, Box } from 'reflexbox'
 import Navigation from 'components/Navigation'
 import Link from 'next/link'
 
-function Header({ isDark, navigation }) {
+const Header = ({ isDark, navigation }) => {
     return (
         <HeaderStyled isDark={isDark}>
             <Box variant="container">

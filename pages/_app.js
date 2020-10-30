@@ -8,7 +8,7 @@ import { DefaultSeo } from 'next-seo'
 
 import SEO from '../next-seo.config'
 
-function MyApp({ Component, pageProps, navigation }) {
+const MyApp = ({ Component, pageProps, navigation }) => {
     console.log(navigation)
 
     return (

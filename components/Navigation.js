@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-function Navigation({navigation}) {
+const Navigation = ({navigation}) => {
     const router = useRouter()
     console.log(router)
 

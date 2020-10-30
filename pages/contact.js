@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function Contact() {
+const Contact = () => {
     return (
     <Link href="https://www.linkedin.com/in/mateusiakmaciej/">
     <a>Contact me via linkedin</a>

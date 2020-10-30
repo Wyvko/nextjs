@@ -1,6 +1,6 @@
 import {NextSeo} from 'next-seo'
 
-function About() {
+const About = () => {
     const SEO = {
         title: 'About page',
         description: 'In progress',

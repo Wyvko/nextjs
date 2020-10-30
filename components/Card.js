@@ -1,9 +1,8 @@
 import styled from '@emotion/styled'
 import Link from 'next/link'
 
-function Card ({ album }) {
+const Card = ({ album }) => {
     const { API_URL } = process.env
-    console.log(album)
     return (
         <CardStyled>
             <div className="poster">
