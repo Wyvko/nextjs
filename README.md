@@ -1,7 +1,3 @@
-# Strapi application
-
-A quick description of your strapi application
-
 ## polish version
 
 1. Po rozpakowaniu wchodzimy w terminal, przechodząc do folderu, gdzie znajduje się next.js (nextjs-main), wpisujemy komendę npm install, aby pobrać pliki node_modules. Następnie wchodzimy w /nextjs-main/strapi i ponownie wpisujemy komendę npm install. 
