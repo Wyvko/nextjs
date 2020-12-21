@@ -1,30 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Strapi application
 
-## Getting Started
+A quick description of your strapi application
 
-First, run the development server:
+## polish version
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Po rozpakowaniu wchodzimy w terminal, przechodząc do folderu, gdzie znajduje się next.js (nextjs-main), wpisujemy komendę npm install, aby pobrać pliki node_modules. Następnie wchodzimy w /nextjs-main/strapi i ponownie wpisujemy komendę npm install. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Aby uruchomić pliki z next.js, które znajdują się w /nextjs-main wpisujemy komendę npm run dev. Aby uzyskać dostęp do serwera, przejdź do http://localhost:3000
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Aby uruchomić pliki strapi, które znajdują się w /nextjs-main/strapi wpisujemy komendę npm run develop. Aby uzyskać dostęp do serwera, przejdź do http://localhost:1337
 
-## Learn More
+4. Wszystko sprawnie śmiga i możemy na serwerze przejrzeć projekt, który został od zera przeze mnie zrealizowany :)
 
-To learn more about Next.js, take a look at the following resources:
+## english version
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+In progress...
