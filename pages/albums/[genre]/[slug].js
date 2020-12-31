@@ -24,7 +24,7 @@ const Album = ({ album }) => {
 const { publicRuntimeConfig } = getConfig()
 
 
-export async const getServerSideProps = (context) => {
+export const getServerSideProps = async (context) => {
 
     const { slug } = context.query
 
